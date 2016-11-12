@@ -1,11 +1,12 @@
-// Con esta tarea conseguimos agrupar todos los js y minificarlos
+// Nos permite agrupar archivos js y minificarlos
+// https://github.com/gruntjs/grunt-contrib-uglify
 module.exports = function (grunt) {
   'use strict'
   grunt.initConfig({
     uglify: {
       build: {
-        src: ['src/js/*.js'], // Carpeta con todos los .js
-        dest: 'src/build/build.js' // Carpeta de destino
+        src: ['src/js/*.js'],
+        dest: 'src/build/build.js'
       }
     }
   })
