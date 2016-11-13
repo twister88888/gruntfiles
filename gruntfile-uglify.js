@@ -1,5 +1,6 @@
 // Nos permite agrupar archivos js y minificarlos
 // https://github.com/gruntjs/grunt-contrib-uglify
+// npm install grunt-contrib-uglify --save-dev
 module.exports = function (grunt) {
   'use strict'
   grunt.initConfig({

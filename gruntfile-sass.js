@@ -1,5 +1,6 @@
 // Nos permite compilar archivos sass
 // https://github.com/sindresorhus/grunt-sass
+// npm install --save-dev grunt-sass
 module.exports = function (grunt) {
   'use strict'
   // Project configuration.
